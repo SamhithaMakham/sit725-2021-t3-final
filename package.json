@@ -1,5 +1,5 @@
 {
-  "name": "bluemix-hello-node",
+  "name": "Practical-3",
   "version": "0.0.0",
   "dependencies": {
     "cf-deployment-tracker-client": "*",
@@ -11,10 +11,15 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
+
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM-Bluemix/bluemix-hello-node.git"
+    "url": "https://github.com/SamhithaMakham/sit725-2021-t3-prac3.git"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
   }
-}
+  }
