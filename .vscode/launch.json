@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-msedge",
+            "name": "https://github.com/SamhithaMakham/sit725-2021-t3-prac4.git",
+            "request": "launch",
+            "url": "https://github.com/SamhithaMakham/sit725-2021-t3-prac4.git"
+        }
+    ]
+}

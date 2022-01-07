@@ -7,19 +7,19 @@
     "express": "^4.14.1",
     "http-post": "^0.1.1",
     "http-proxy": "^1.8.1",
+    "mongoose": "^6.1.1",
     "socket.io": "^2.3.0"
   },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "start-dev": "nodemon server.js"
-
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SamhithaMakham/sit725-2021-t3-prac4.git"
+    "url": "https://github.com/SamhithaMakham/sit725-2021-t3-prac3.git"
   },
   "devDependencies": {
     "nodemon": "2.0.15"
   }
-  }
+}
