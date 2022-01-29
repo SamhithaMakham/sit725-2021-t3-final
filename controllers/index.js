@@ -1,3 +1,3 @@
 module.exports={
-    projectsController:require('./projectsController')
+    projectController:require('./projectController')
 }

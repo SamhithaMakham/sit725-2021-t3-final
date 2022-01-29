@@ -17,7 +17,6 @@ app.use(express.json());
 app.use(express.static(__dirname + '/public'));
 app.use('/api/projects',projectsRoute)
 
-
 app.get("/test", function (request, response) {
   var user_name = request.query.user_name;
   response.end("Hello " + user_name + "!");

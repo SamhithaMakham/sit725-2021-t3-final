@@ -1,8 +1,8 @@
 let Service = require("../services");
 
-const getProjects = (res) => {
+const getProject = (res) => {
     console.log('controller ')
-    Service.ProjectService.getAllProjects(res)
+    Service.ProjectService.getAllProject(res)
 }
 
 const createProject = (data, res) => {
@@ -10,5 +10,5 @@ const createProject = (data, res) => {
 }
 
 module.exports = {
-    getProjects, createProject
+    getProject, createProject
 }

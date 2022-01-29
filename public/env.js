@@ -13,3 +13,4 @@ $(document).ready(function(){
   getProjects();
   $('.modal').modal();
 });
+ 

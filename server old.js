@@ -43,7 +43,6 @@ io.on('connection', (socket)=>{
 });
 
 
-
 //Data base Connection
 const uri = "mongodb+srv://smakham:Mongodb@21@cluster0.2mbxz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const client = new MongoClient(uri, {useNewUrlParser: true, useUnifiedTopology: true});
