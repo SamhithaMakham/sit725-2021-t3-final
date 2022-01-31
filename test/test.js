@@ -56,7 +56,6 @@ describe("get all comments", () => {
         })
     });
 
-
 });
 
 describe("insert comments", () => {
