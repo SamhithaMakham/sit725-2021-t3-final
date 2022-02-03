@@ -3,7 +3,6 @@ const request = require("request");
 
 const dbo = require("../db/conn");
 
-
 describe("get all comments", () => {
     const url = "http://localhost:8080/api/comments";
 
