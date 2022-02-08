@@ -22,7 +22,6 @@ app.get("/test", function (request, response) {
   response.end("Hello " + user_name + "!");
 });
 
-
 //socket test
 io.on('connection', (socket) => {
   console.log('a user connected');

@@ -104,7 +104,6 @@ describe("insert comments", () => {
         });
     });
 
-
     after(() => {
         dbo.connect(() => {
             const commentsCollection = dbo.getDB().collection("comments");

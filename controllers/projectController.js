@@ -8,7 +8,6 @@ const getProject = (res) => {
 const createProject = (data, res) => {
     Service.ProjectService.insertProject(data,res)
 }
-
 module.exports = {
     getProject, createProject
 }

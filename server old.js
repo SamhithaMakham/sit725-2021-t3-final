@@ -16,7 +16,6 @@ const dummyComment={
     name:'Samhitha',
     description:'New html page'
 }
-
 let dummyData=[dummyComment,dummyComment]
 
 //serve comments data to the requestor
